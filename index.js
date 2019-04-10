@@ -13,6 +13,7 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  Object.assign({}, {item: Math.floor(Math.random)})
+  return `${item} has been added to your cart.`
  }
 
 
