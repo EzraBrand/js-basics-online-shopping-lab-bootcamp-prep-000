@@ -30,6 +30,7 @@ function viewCart() {
   }
 }
 
+//#3 total()
 function total() {
   // write your code here
 }
