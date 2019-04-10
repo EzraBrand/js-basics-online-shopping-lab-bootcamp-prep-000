@@ -35,10 +35,11 @@ function total() {
   // write your code here
 }
 
+//#4 removeFromCart()
 function removeFromCart(item) {
   // write your code here
 }
-
+//#5 placeOrder()
 function placeOrder(cardNumber) {
   // write your code here
 }
