@@ -33,6 +33,9 @@ function viewCart() {
 //#3 total()
 function total() {
   // write your code here
+  for (let i=0; i<cart.length;i++){
+    
+  }
 }
 
 //#4 removeFromCart()
