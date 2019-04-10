@@ -20,8 +20,13 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   let str = 'In your cart, you have'
+  if (Object.keys(cart).length) {
   for (let i=0; i<Object.keys(cart).length,i++) {
     str += `${cart[i][itemName]} at ${cart[i][itemPrice]}`
+  }
+  }
+  else {
+    return 'Your shopping cart is empty'
   }
 }
 
