@@ -16,9 +16,13 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
  }
 
-
+//#2 viewCart()
 function viewCart() {
   // write your code here
+  let str = 'In your cart, you have'
+  for (let i=0; i<Object.keys(cart).length,i++) {
+    str += `${cart[i][itemName]} at ${cart[i][itemPrice]}`
+  }
 }
 
 function total() {
