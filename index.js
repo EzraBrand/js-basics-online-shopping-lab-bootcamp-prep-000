@@ -9,9 +9,12 @@ function setCart(c) {
   return cart;
 }
 
+//#1 addToCart
 function addToCart(item) {
  // write your code here
-}
+ Object.assign({}, {item: Math.floor(Math.random)})
+ }
+
 
 function viewCart() {
   // write your code here
